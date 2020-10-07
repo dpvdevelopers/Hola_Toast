@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sumar(View view) {
         contador ++;
+        // esto es un comentario
         if(contador==1000) principal.setTextSize(150);
         principal.setText(String.valueOf(contador));
     }
