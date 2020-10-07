@@ -3,4 +3,5 @@
     <string name="titulo">Hola usuario</string>
     <string name="bt_inferior">Pulsa aquí</string>
     <string name="tv_contador">0</string>
+    <string name="mensaje">Hola usuario</string>
 </resources>

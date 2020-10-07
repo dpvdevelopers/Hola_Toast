@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void saludar(View view) {
+
+        Toast toast = Toast.makeText(this, R.string.mensaje, Toast.LENGTH_SHORT );
+        toast.show();
+        contador = 0;
+        principal.setText(String.valueOf(contador));
+
 
     }
 
