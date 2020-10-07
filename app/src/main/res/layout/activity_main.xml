@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/textViewContador"
         android:layout_width="match_parent"
-        android:layout_height="633dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginEnd="1dp"
@@ -35,12 +35,13 @@
         android:text="@string/tv_contador"
         android:textColor="@color/colorContador"
         android:textSize="200sp"
+        android:layout_weight="1"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonContar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginEnd="1dp"
